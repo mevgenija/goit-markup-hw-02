@@ -6,6 +6,10 @@ main {
   color: #212121;
 }
 
+.list {
+  list-style: none;
+}
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -47,6 +51,47 @@ main {
   color: #ffffff;
 }
 
-.list {
-  list-style: none;
+.features-subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.features-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.line-title,
+.about-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.about-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.about-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
