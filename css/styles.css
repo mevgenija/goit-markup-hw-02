@@ -150,7 +150,8 @@ main {
   letter-spacing: 0.03em;
 }
 
-.about-text {
+.about-text,
+.portfolio-text {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -187,4 +188,33 @@ footer {
 .footer-link-mail:hover,
 .footer-link-mail:focus {
   color: var(--accent-color);
+}
+
+/* ----- Портфолио ----- */
+
+.portfolio-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background: var(--accent-color);
+  color: #ffffff;
+}
+
+.portfolio-subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  line-height: 1.87;
 }
