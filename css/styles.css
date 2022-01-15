@@ -14,6 +14,19 @@ main {
   --accent-color: #2196f3;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* -- HEADER -- */
 
 .header-link {
@@ -47,7 +60,7 @@ main {
   color: var(--accent-color);
 }
 
-/* ----- HERO ----- */
+/* ------- HERO ------- */
 
 .hero {
   background: #2f303a;
@@ -75,7 +88,7 @@ main {
   color: #ffffff;
 }
 
-/* ----- FEATURES ----- */
+/* ------- FEATURES ------- */
 
 .features-subtitle {
   font-weight: bold;
@@ -94,7 +107,7 @@ main {
   color: #757575;
 }
 
-/* ----- LINE ----- */
+/* ------- LINE ------- */
 
 .line-title,
 .about-title {
