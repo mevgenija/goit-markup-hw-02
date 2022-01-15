@@ -38,8 +38,12 @@ main {
   color: #2196f3;
 }
 
-.logo-piece {
+.logo-blk {
   color: #000000;
+}
+
+.logo-wht {
+  color: #ffffff;
 }
 
 .header-link {
@@ -47,6 +51,7 @@ main {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: #212121;
 }
 
 .header-link:hover,
@@ -55,7 +60,10 @@ main {
 }
 
 .header-link-tel,
-.header-link-mail {
+.header-link-mail,
+.footer-link-tel,
+.footer-link-mail {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -150,4 +158,19 @@ main {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+/* ----- FOOTER ----- */
+
+footer {
+  background-color: #2f303a;
+}
+
+.address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
