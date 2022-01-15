@@ -10,11 +10,22 @@ main {
   list-style: none;
 }
 
+:root {
+  --accent-color: #2196f3;
+}
+
+/* -- HEADER -- */
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
 }
 
 .header-link-tel,
@@ -25,6 +36,18 @@ main {
   letter-spacing: 0.02em;
   color: #757575;
 }
+
+.header-link-tel:hover,
+.header-link-tel:focus {
+  color: var(--accent-color);
+}
+
+.header-link-mail:hover,
+.header-link-mail:focus {
+  color: var(--accent-color);
+}
+
+/* ----- HERO ----- */
 
 .hero {
   background: #2f303a;
@@ -40,6 +63,7 @@ main {
 }
 
 .hero-button {
+  font-family: inherit;
   background: #2196f3;
   font-weight: bold;
   font-size: 16px;
@@ -50,6 +74,8 @@ main {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+
+/* ----- FEATURES ----- */
 
 .features-subtitle {
   font-weight: bold;
@@ -68,6 +94,8 @@ main {
   color: #757575;
 }
 
+/* ----- LINE ----- */
+
 .line-title,
 .about-title {
   font-weight: 500;
@@ -77,6 +105,8 @@ main {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
+/* ----- ABOUT ----- */
 
 .about-subtitle {
   font-weight: 500;
