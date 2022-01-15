@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
+  color: #212121;
 }
 
 main {
@@ -106,6 +107,7 @@ main {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
   color: #ffffff;
 }
 
@@ -117,7 +119,6 @@ main {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
 }
 
 .features-text {
@@ -137,7 +138,6 @@ main {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 /* ----- ABOUT ----- */
@@ -148,7 +148,6 @@ main {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .about-text {
@@ -173,4 +172,19 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.footer-link-tel:hover,
+.footer-link-tel:focus {
+  color: var(--accent-color);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+}
+
+.footer-link-mail:hover,
+.footer-link-mail:focus {
+  color: var(--accent-color);
 }
