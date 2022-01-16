@@ -31,8 +31,7 @@ main {
 /* -- HEADER -- */
 
 .logo {
-  font-family: Raleway;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -221,4 +220,8 @@ footer {
 
 .portfolio-text {
   line-height: 1.87;
+}
+
+.current {
+  color: var(--accent-color);
 }
