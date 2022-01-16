@@ -60,6 +60,10 @@ main {
   color: var(--accent-color);
 }
 
+.header-link-active {
+  color: var(--accent-color);
+}
+
 .header-link-tel,
 .header-link-mail,
 .footer-link-tel,
