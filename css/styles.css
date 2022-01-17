@@ -7,6 +7,10 @@ main {
   color: #212121;
 }
 
+a {
+  text-decoration: none;
+}
+
 .list {
   list-style: none;
 }
