@@ -17,8 +17,8 @@ a {
 
 :root {
   --accent-color: #2196f3;
+  --text-color: #757575;
 }
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -68,15 +68,13 @@ a {
 }
 
 .header-link-tel,
-.header-link-mail,
-.footer-link-tel,
-.footer-link-mail {
+.header-link-mail {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
 }
 
 .header-link-tel:hover,
@@ -107,7 +105,7 @@ a {
 .hero-button {
   font-family: inherit;
   background: #2196f3;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -121,7 +119,7 @@ a {
 /* ------- FEATURES ------- */
 
 .features-subtitle {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -133,14 +131,14 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 
 /* ------- LINE ------- */
 
 .line-title,
 .about-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -159,12 +157,12 @@ a {
 
 .about-text,
 .portfolio-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 
 /* ----- FOOTER ----- */
@@ -175,11 +173,20 @@ footer {
 
 .address {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.footer-link-tel,
+.footer-link-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-link-tel:hover,
